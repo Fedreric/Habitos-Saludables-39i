@@ -14,4 +14,17 @@ body{
 
 main{
     flex-grow: 1;
+    background-color: #e3f6f5;
+}
+
+
+.card{
+    border: none;
+    opacity: 0.8;
+    transition: 0.7s;
+    transform:scale(0.9);
+}
+.card:hover{
+    transform:scale(1);
+    opacity: 1;
 }
