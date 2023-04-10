@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 .logo{
     width: 90px;
     object-fit: cover;
@@ -27,8 +28,8 @@ p{
     text-align: justify;
 }
 
-/*@media all and (max-width: 992px){
+@media all and (min-width: 992px){
     .imagen{
         width: 25rem;
     }
-}*/
+}
