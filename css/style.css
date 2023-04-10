@@ -1,27 +1,45 @@
-.logo{
-    width: 90px;
-    object-fit: cover;
+.logo {
+  width: 90px;
+  object-fit: cover;
 }
 
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-main{
-    flex-grow: 1;
-    background-color: #e3f6f5;
+main {
+  flex-grow: 1;
+  background-color: #e3f6f5;
 }
 
-
-.card{
-    border: none;
-    opacity: 0.8;
-    transition: 0.7s;
-    transform:scale(0.9);
+.card {
+  border: none;
+  opacity: 0.8;
+  transition: 0.7s;
+  transform: scale(0.95);
 }
-.card:hover{
-    transform:scale(1);
-    opacity: 1;
+.card:hover {
+  transform: scale(1);
+  opacity: 1;
+}
+.tituloCard{
+  color: #272343;
+}
+.card {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+span{
+    color: black;
 }
