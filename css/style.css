@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
 .logo{
     width: 90px;
     object-fit: cover;
@@ -9,7 +7,6 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: 'Lato', sans-serif;
 }
 
 main{
