@@ -13,5 +13,13 @@ body{
 
 main{
     flex-grow: 1;
+   background-color:#fffffe ; 
     
+}
+.encabezado{
+    background-color: #e3f6f5;
+}
+.titulo-art{
+    background-color:#ffd803;
+    color: #2d334a;
 }
