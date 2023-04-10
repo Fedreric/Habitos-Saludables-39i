@@ -23,3 +23,12 @@ main{
     background-color:#ffd803;
     color: #2d334a;
 }
+p{
+    text-align: justify;
+}
+
+/*@media all and (max-width: 992px){
+    .imagen{
+        width: 25rem;
+    }
+}*/
