@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .logo{
     width: 90px;
@@ -9,7 +9,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Lato', sans-serif;
 }
 
 main{
