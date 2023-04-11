@@ -43,3 +43,29 @@ main {
   object-fit: cover;
   border-radius: 3px;
 }
+.main-art{
+   
+  background-color:#fffffe ; 
+   
+}
+.encabezado-art{
+   background-color: #e3f6f5;
+}
+.titulo-art{
+   background-color:#ffd803;
+   color: #2d334a;
+}
+.p-art{
+   text-align: justify;
+}
+textarea {
+   height: 100px;
+   width: 100%;
+   resize: none;
+}
+
+@media all and (min-width: 992px){
+   .imagen{
+       width: 25rem;
+   }
+}
