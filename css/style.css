@@ -24,6 +24,10 @@ main{
 .encabezado-art{
     background-color: #e3f6f5;
 }
+.encabezado-art4{
+    background-color: rgb(229, 187, 229);
+}
+
 .titulo-art{
     background-color:#ffd803;
     color: #2d334a;
