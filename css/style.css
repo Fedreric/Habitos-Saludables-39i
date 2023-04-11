@@ -13,6 +13,7 @@ body{
 }
 main{
      flex-grow: 1;
+     background-color: #e3f6f5;
 }
 
 .main-art{
@@ -29,6 +30,11 @@ main{
 }
 .p-art{
     text-align: justify;
+}
+textarea {
+    height: 100px;
+    width: 100%;
+    resize: none;
 }
 
 @media all and (min-width: 992px){
