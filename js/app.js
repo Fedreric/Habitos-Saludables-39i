@@ -10,7 +10,6 @@ function filterArray() {
 }
 
 function renderList(arrayFiltrado) {
-    console.log('array desde renderlist: '+ arrayFiltrado);
     contenedorArticulos.innerHTML = '';
     
     if(arrayFiltrado.length > 0) {
