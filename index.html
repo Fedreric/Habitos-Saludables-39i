@@ -75,11 +75,11 @@
         <h1 class="text-center fs-2 pt-5">Descubre cómo transformar tu vida a través de pequeños cambios diarios. ¡Lee nuestros artículos sobre hábitos saludables y comienza hoy mismo! </h1>
           <section class="py-5">
               <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <input class="form-control me-2" type="search" id="buscador" oninput="filterArray()" placeholder="Buscar" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
               </form>
           </section>
-        <article class="row">
+        <article class="row" id="list">
             <aside class="col-md-6 col-lg-4 card text-bg-light my-3 p-0">
               <a href="pages/disciplina.html">
                 <img src="img/disciplina.png" alt="banner1" class="w-auto">
