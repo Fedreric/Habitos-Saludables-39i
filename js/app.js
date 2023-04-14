@@ -1,15 +1,15 @@
 const articulos = ["disciplina", "ejercitacion", "habitos", "journaling", "mindfulness"];
 const contenedorArticulos = document.getElementById("contenedorArticulos");
 
-function filterArray() {
+function buscar() {
     const searchTerm = document.getElementById("buscador").value.toLowerCase();
     const arrayFiltrado = articulos.filter(item =>
         item.toLowerCase().includes(searchTerm)
     );
-    renderList(arrayFiltrado);
+    mostrarArtBuscado(arrayFiltrado);
 }
 
-function renderList(arrayFiltrado) {
+function mostrarArtBuscado(arrayFiltrado) {
     contenedorArticulos.innerHTML = '';
     
     if(arrayFiltrado.length > 0) {
