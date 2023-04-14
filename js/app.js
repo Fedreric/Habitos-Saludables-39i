@@ -1,22 +1,21 @@
-const array = ["disciplina", "ejercitacion", "habitos", "journaling", "mindfulness"];
-const list = document.getElementById("list");
+const articulos = ["disciplina", "ejercitacion", "habitos", "journaling", "mindfulness"];
+const contenedorArticulos = document.getElementById("contenedorArticulos");
 
 function filterArray() {
     const searchTerm = document.getElementById("buscador").value.toLowerCase();
-    const filteredArray = array.filter(item =>
+    const arrayFiltrado = articulos.filter(item =>
         item.toLowerCase().includes(searchTerm)
     );
-    console.log(filteredArray);
-    renderList(filteredArray);
+    renderList(arrayFiltrado);
 }
 
 function renderList(arrayFiltrado) {
     console.log('array desde renderlist: '+ arrayFiltrado);
-    list.innerHTML = '';
+    contenedorArticulos.innerHTML = '';
     
     if(arrayFiltrado.length > 0) {
         arrayFiltrado.forEach(item => {
-            list.innerHTML += `
+            contenedorArticulos.innerHTML += `
         <aside class="col-md-6 col-lg-4 card text-bg-light my-3 p-0">
             <a href="pages/${item}.html">
             <img src="img/${item}.png" alt="banner1" class="w-auto">
@@ -26,7 +25,7 @@ function renderList(arrayFiltrado) {
         </aside>`;
         });
     }else{
-        list.innerHTML = `<p class="text-center fs-2 fw-light fst-italic">No se encontraron articulos asociados con: ${document.getElementById("buscador").value}</p>`;
+        contenedorArticulos.innerHTML = `<p class="text-center fs-2 fw-light fst-italic">No se encontraron articulos asociados con: ${document.getElementById("buscador").value}</p>`;
     }
 
 }
