@@ -11,7 +11,7 @@ function comentar(event){
     if (minutos < 10) {
         minutos = '0' + minutos;
       } 
-    let nombre = document.getElementById("nombre_input").value;
+    let nombre = document.getElementById("email_input").value;
     let comentario = document.getElementById("txt-tarea").value;
     let comentarioSection = document.getElementById("comentarios");
     /* let nuevoComentario = document.createElement("article"); */
