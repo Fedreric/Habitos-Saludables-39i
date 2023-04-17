@@ -1,11 +1,11 @@
 # 🦋 *Habitos Saludables* 🦋
 
-![Imagen](../Habitos-Saludables-39i/img/Salud.png)
+![Imagen](https://cdn-icons-png.flaticon.com/512/4310/4310163.png)
 
 
-<p align="left">
+<p align="center">
    <img src="https://img.shields.io/badge/STATUS-ESTA%20TERMINADO-green">
-   </p>
+</p>
 
 ## Descripción del Proyecto 📃
 <hr>
@@ -16,7 +16,12 @@
 
 - Contar con internet
 
-
+## Tecnologías utilizadas
+- JavaScript
+- HTML
+- CSS
+- BootStrap
+- ChatGPT
 
 
 ## Para clonar el repositorio 💻
@@ -25,9 +30,9 @@ bash
 git clone Link del repositorio
 
 ## Sitio Web 💻
-Link de netlify
+Link de netlify : https://habito-39i.netlify.app/
 ### Autores 👣
-+ Aixa Filsinger
-+ Federico Luciano Ledesma 
-+ Julian Martin
-+ Agustin Sandoval
++ Aixa Filsinger [GitHub](https://github.com/AixaFilsinger)
++ Federico Luciano Ledesma [GitHub](https://github.com/Fedreric)
++ Julian Martin [GitHub](https://github.com/Juliancito1)
++ Agustin Sandoval [GitHub](https://github.com/Agustincomics)
