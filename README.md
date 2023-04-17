@@ -1,9 +1,11 @@
 # 🦋 *Habitos Saludables* 🦋
 
-![Imagen](https://cdn-icons-png.flaticon.com/512/4310/4310163.png)
+<div style = "text-align:center">
+<img src= "https://cdn-icons-png.flaticon.com/512/4310/4310163.png"/>
+</div>
 
 
-<p align="center">
+<p align="left">
    <img src="https://img.shields.io/badge/STATUS-ESTA%20TERMINADO-green">
 </p>
 
