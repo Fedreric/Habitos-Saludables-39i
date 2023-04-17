@@ -12,11 +12,17 @@ function comentar(event){
         minutos = '0' + minutos;
       } 
     let nombre = document.getElementById("email_input").value;
+    if (nombre == "") {
+        alert("Ingrese un mail valido");
+    }
     let comentario = document.getElementById("txt-tarea").value;
+    if (comentario == "") {
+        alert("No puede dejar vacio este campo");
+    }
     let comentarioSection = document.getElementById("comentarios");
-    /* let nuevoComentario = document.createElement("article"); */
-    comentarioSection.innerHTML = "<strong>" + nombre + `</strong> ${dia}/${mes}/${año} a las ${hora}:${minutos}<br>` + comentario;
- /*    comentarioSection.appendChild(nuevoComentario); */
+    let nuevoComentario = document.createElement("article"); 
+    nuevoComentario.innerHTML = "<strong>" + nombre + `</strong> ${dia}/${mes}/${año} a las ${hora}:${minutos}<br>` + comentario + `<hr class="mb-5">`;
+    comentarioSection.appendChild(nuevoComentario); 
     document.getElementById("formulario").reset();
 }
 
