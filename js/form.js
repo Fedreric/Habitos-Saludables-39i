@@ -1,3 +1,4 @@
+import { cantidadCaracteres } from "./helpers.js";
 document.getElementById("formulario").addEventListener("submit", comentar);
 
 function comentar(event){
@@ -12,18 +13,18 @@ function comentar(event){
         minutos = '0' + minutos;
       } 
     let nombre = document.getElementById("email_input").value;
-    if (nombre == "") {
-        alert("Ingrese un mail valido");
-    }
     let comentario = document.getElementById("txt-tarea").value;
-    if (comentario == "") {
-        alert("No puede dejar vacio este campo");
+    if (cantidadCaracteres(nombre, 4, 80)==true && cantidadCaracteres(comentario, 4, 100)==true){
+        console.log("Cargando comentario...");
+        let comentarioSection = document.getElementById("comentarios");
+        let nuevoComentario = document.createElement("article"); 
+        nuevoComentario.innerHTML = "<strong>" + nombre + `</strong> ${dia}/${mes}/${año} a las ${hora}:${minutos}<br>` + comentario + `<hr>`;
+        comentarioSection.appendChild(nuevoComentario); 
+        document.getElementById("formulario").reset();
+    } else {
+        alert("Las cantidades de caracteres no son correctas");
     }
-    let comentarioSection = document.getElementById("comentarios");
-    let nuevoComentario = document.createElement("article"); 
-    nuevoComentario.innerHTML = "<strong>" + nombre + `</strong> ${dia}/${mes}/${año} a las ${hora}:${minutos}<br>` + comentario + `<hr class="mb-5">`;
-    comentarioSection.appendChild(nuevoComentario); 
-    document.getElementById("formulario").reset();
+
 }
 
 
