@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.logo{
+    width: 90px;
+    object-fit: cover;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+}
+
+main {
+flex-grow: 1;
+background-color: #e3f6f5;
+}
+
+.card {
+border: none;
+opacity: 0.8;
+transition: 0.7s;
+transform: scale(0.95);
+}
+.card:hover {
+transform: scale(1);
+opacity: 1;
+}
+.tituloCard{
+color: #272343;
+}
+.card {
+border: 1px solid #ccc;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+padding: 10px;
+}
+
+.card img {
+max-width: 100%;
+height: auto;
+object-fit: cover;
+border-radius: 3px;
+}
+
+.main-art{
+   
+   background-color:#fffffe ; 
+    
+}
+.encabezado-art{
+    background-color: #e3f6f5;
+}
+.encabezado-art4{
+    background-color: rgb(229, 187, 229);
+}
+
+.titulo-art{
+    background-color:#ffd803;
+    color: #2d334a;
+}
+.p-art{
+    text-align: justify;
+}
+textarea {
+    height: 100px;
+    width: 100%;
+    resize: none;
+}
+
+@media all and (min-width: 992px){
+    .imagen{
+        width: 25rem;
+    }
+}
+
